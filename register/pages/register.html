@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <title>Register Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  
+  <link href="../styles/reset.css" rel="stylesheet" />
+  <link href="../styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="main-wrapper">
+    <div id="left-side" class="page-side">
+    <div id="right-side" class="page-side">
+      <div class="side-inner">
+        <h1>Hello!</h1>
+        <span class="h1-underline"></span>
+        <p class="description">Create your Account</p>
+        <form id="login-form" class="form" action="user/register" method="POST">
+          <div class="input-wrapper">
+            <label for="fname">
+              First name
+              <input type="text" name="fname" id="fname" placeholder="John" />
+            </label>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="lname">
+              Last name
+              <input type="text" name="lname" id="lname" placeholder="Walker" />
+            </label>
+          </div>
+
+            <div class="input-wrapper">
+              <label for="email">
+                Email
+                <input type="email" name="email" id="email" placeholder="info@info.com" />
+              </label>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="password">
+                  Password
+                  <input type="password" name="password" id="password" />
+                </label>
+                </div>
+        
+
+          
+        
+          <div class="buttons-wrapper">
+            <button type="submit" id="register" class="button">Register</button>
+          
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
